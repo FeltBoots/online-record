@@ -1,0 +1,64 @@
+.app {
+    font-family: Open Sans,Helvetica,Arial,sans-serif;
+    line-height: 1.55;
+    color: #181818;
+    min-width: 300px;
+    box-sizing: border-box;
+    margin: 0 auto 0 auto;
+    max-width: 540px;
+}
+
+.da-input {
+    -webkit-appearance: none;
+    display: block;
+    outline: none;
+    width: 100%;
+    color: #181818;
+    box-sizing: border-box;
+}
+
+.da-input_new.error {
+    background-color: #fbe5e8;
+    border-color: #fbe5e8;
+    color: #db001b;
+}
+
+.da-input_new.error::placeholder {
+    color: #db001b;
+}
+
+.da-input_new {
+    margin-bottom: 0;
+    border-radius: 3px;
+    border: 1px solid transparent;
+    background-color: #e8e8e8;
+    -webkit-transition: all .15s ease-out;
+    transition: all .15s ease-out;
+    height: 61px;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.da-input_new:focus {
+    border-color: #c1c1c1;
+    -webkit-box-shadow: 0 5px 15px 0 hsla(0,0%,55%,.5);
+    box-shadow: 0 5px 15px 0 hsla(0,0%,55%,.5);
+}
+
+.da-input_new.error:focus {
+    background-color: #fff;
+    border-color: #c1c1c1;
+}
+
+.da-input:focus {
+    background-color: #fff;
+}
+
+.da-input[data-disabled], .da-input[disabled] {
+    opacity: .5;
+    pointer-events: none;
+}
+
+.app h4 {
+    font-weight: 500;
+}

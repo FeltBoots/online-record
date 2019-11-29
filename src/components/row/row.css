@@ -1,0 +1,21 @@
+.row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.row-cols .row-item {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0%;
+    -ms-flex: 1 0 0%;
+    flex: 1 0 0%;
+}
+
+.row-cols .row-item:not(:last-child)  {
+    margin-right: 20px;
+}

@@ -1,0 +1,65 @@
+.header {
+    padding: 1.06666rem 1.06666rem 0;
+}
+
+h3 {
+    font-size: 1.3125rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.header-logo {
+    background-image: url('logo.svg');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 135px;
+    display: block;
+    position: relative;
+    width: 229px;
+    height: 39px;
+    margin-bottom: 1.25rem;
+}
+
+.header-logo__spinner {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background: #fff;
+    width: 42px;
+    height: 45px;
+    opacity: 0;
+    visibility: hidden;
+    will-change: opacity;
+    -webkit-transition: opacity .15s ease-out;
+    transition: opacity .15s ease-out;
+}
+
+.header-logo__spinner svg {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    fill: #fff;
+    stroke: #db001b;
+    stroke-width: 2px;
+    stroke-dasharray: 80px;
+    stroke-dashoffset: 160px;
+    -webkit-animation-name: da-logo-spinner;
+    animation-name: da-logo-spinner;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-transform: translateZ(0) rotate(0);
+    transform: translateZ(0) rotate(0);
+    will-change: stroke-dashoffset,transform;
+}
+
+.header-logo__spinner.loading {
+    opacity: 1;
+    visibility: visible;
+}
+
+@keyframes da-logo-spinner{0%{stroke-dashoffset:160px;-webkit-transform:translateZ(0) rotate(0);transform:translateZ(0) rotate(0)}to{stroke-dashoffset:0;-webkit-transform:translateZ(0) rotate(1turn);transform:translateZ(0) rotate(1turn)}}

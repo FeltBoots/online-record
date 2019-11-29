@@ -1,0 +1,18 @@
+.record-form {
+    padding: 2.5rem 0 6.25rem 0;
+}
+
+.record-form_wrapper {
+    padding: 0 0.9375rem 0 0.9375rem;
+}
+
+.page_loading.loading-affect {
+    opacity: .4;
+    pointer-events: none;
+}
+
+.loading-affect {
+    will-change: opacity;
+    -webkit-transition: opacity .15s ease-out;
+    transition: opacity .15s ease-out;
+}

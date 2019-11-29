@@ -1,0 +1,31 @@
+table {
+    margin: 3rem auto 0 auto;
+}
+th {
+    background: #ccc;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 4px;
+}
+
+tr:nth-child(even) {
+    background: #efefef;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.fa-trash-alt:hover {
+    color: #D8000C;
+}
+
+/*tr:hover {*/
+/*    background: #d1d1d1;*/
+/*}*/

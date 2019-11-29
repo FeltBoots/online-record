@@ -1,0 +1,25 @@
+/*
+    da-input
+    da-select
+    da-select-new
+    da-input_new
+*/
+
+.da-select {
+    background-color: #eee;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 27px;
+    padding-right: 32px;
+    -moz-appearance: none;
+    text-indent: .01px;
+    text-overflow: "";
+}
+
+.da-select-new {
+    background-color: #e8e8e8;
+    background-image: url('arrow.png');
+    padding: 0 20px;
+    font-size: 18px;
+    height: 61px;
+}

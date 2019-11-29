@@ -1,0 +1,21 @@
+.form-item {
+    margin-bottom: 1.25rem;
+}
+
+.form-link {
+    color: #1b75cc;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 1.2;
+    -webkit-transition: border-color .15s ease-out;
+    transition: border-color .15s ease-out;
+    border-bottom: 1px solid;
+    border-color: transparent;
+}
+
+.form-link:hover,
+.form-link:active {
+    color: #db001b;
+    outline: none;
+}
